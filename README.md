@@ -1,4 +1,4 @@
-# DB Anonymizer (IT-576)
+# DB Anonymizer
 
 This script will anonymize a MySQL backup file. Config is in config.csv. The config file has three columns: table name, column name and data type.  Add entry to the file for each column that needs anonymizing.  Valid data types are address, companyname, contactname, email, phone, url and random.  Anon data is pulled from the CSV files, only 5000 entries are loaded, and it will loop through to beginning of the list when the 5000 have been used.
 
